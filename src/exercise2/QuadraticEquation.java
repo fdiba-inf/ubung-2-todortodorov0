@@ -1,6 +1,6 @@
-package school.projects;
+package exercise2;
 import java.util.Scanner;
-public class Qadratgleichung {
+public class QuadraticEquation {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         System.out.println("ax^2+bx+c = 0");
