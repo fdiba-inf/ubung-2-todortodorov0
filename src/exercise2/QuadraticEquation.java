@@ -26,8 +26,8 @@ public class QuadraticEquation {
             if(D>=0){
                 double squareRootx1=(-b+Math.sqrt(b*b-4*a*c))/2*a;
                 double squareRootx2=(-b- Math.sqrt(b * b - 4 * a * c))/2*a;
-                System.out.println("x1= "+squareRootx1);
-                System.out.println("x2= "+squareRootx2);
+                System.out.println(squareRootx1);
+                System.out.println(squareRootx2);
             }else if (D<0){
                 System.out.println("Imaginary values");
             }
